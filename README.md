@@ -1,7 +1,7 @@
 Hi all.
 
-This is rework of a Micropolis demo created by fantastic guys
-Mentor, Cheesytbc and Toxic Child. I managed to do next things:
+This is a rework of a Micropolis demo created by fantastic guys
+Mentor, Cheesytbc and Toxic Child. I managed to do the following:
 
 - Completely reverse-engineered the demo, so you can see the
 source code of it and learn in the process. Please be aware that
@@ -10,11 +10,11 @@ but it is 90% same.
 - Changed display mode to 1920x1080 instead of old 640x360 used
 in the original demo.
 - Adapted demo to the new operating systems (checked on Windows
-11 on several machines and it seems work great).
+11 on several machines and it seems to work great).
 - Repacked it to 3766 bytes instead of 4092 - so anyone of you
 can try to enhance it with more features - now you have plenty
-of space. At least half of that space is due to use of Crinkler
-tool also developed by Mentor (but he can not use it as
+of space. At least half of these 326 saved bytes come from using
+Crinkler tool also developed by Mentor (but he can not use it as
 Micropolis was developed in 2004 when Crinkler was not available).
 You will need to use FASM to compile it to .obj file and then
 use Crinkler to obtain .exe.
@@ -26,6 +26,6 @@ The original version of the demo can be downloaded from pouet.net
 this demo and created source code - with the permissions of
 Mentor and Cheesytbc granted. So this work is essentially a
 derivative work of original one and should not be counted as
-a standalone demo created by me. If anyone of you will want to
-use this source code for some other derivative work, you will
+a standalone demo created by me. If any of you want to use 
+this source code for some other derivative work, you will
 also need to obtain a permission from original demo authors.
