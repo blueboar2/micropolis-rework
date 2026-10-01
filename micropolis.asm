@@ -3369,7 +3369,7 @@ process_messages:
 	CALL [TranslateMessage]
 
 	PUSH msg
-	CALL [DispatchMessage]
+	CALL [DispatchMessageA]
 
 	JMP process_messages	; PROCESS OTHER MESSAGES
 
