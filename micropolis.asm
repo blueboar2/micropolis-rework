@@ -2326,8 +2326,6 @@ calculate_robot_movement:
 	MOV [EBP + arg_parameter_data_region], EAX	; BYTE 4 = offset = O
 	FIADD dword [EBP + arg_parameter_data_region]	; O + A * SIN(PI/128 * P + t * FM)
 
-							; Only low byte of pointer is incremented.
-							; Safe because the 240-byte animation table does not cross a 256-byte boundary.
 	ADD dword [current_robot_move_data_pointer], 4	; TO NEXT 4 BYTES OF DATA
 
 	POPA
