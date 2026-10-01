@@ -16,6 +16,8 @@ can try to enhance it with more features - now you have plenty
 of space. At least half of that space is due to use of Crinkler
 tool also developed by Mentor (but he can not use it as
 Micropolis was developed in 2004 when Crinkler was not available).
+You will need to use FASM to compile it to .obj file and then
+use Crinkler to obtain .exe.
 
 I want to explicitly mention that this is not MY work, and it
 was created originally by Mentor, Cheesytbc and Toxic Child.
